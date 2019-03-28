@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{603CE454-89EB-4008-832D-521B9647CAA2}</ProjectGuid>
+    <ProjectGuid>{C9AA1D4B-41A9-4288-9BE2-2DB7B222E829}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HelloWorld</RootNamespace>
-    <AssemblyName>HelloWorld</AssemblyName>
+    <RootNamespace>projekt_3_1_vj</RootNamespace>
+    <AssemblyName>projekt_3_1_vj</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -142,8 +142,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\PozdravSvijeteController.cs" />
-    <Compile Include="Controllers\PrviController.cs" />
+    <Compile Include="Controllers\KontekstController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -186,8 +185,10 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\PozdravSvijete\Index.cshtml" />
-    <Content Include="Views\Prvi\DrugaMetodaSParametrima.cshtml" />
+    <Content Include="Views\Kontekst\Index.cshtml" />
+    <Content Include="Views\QueryPodaci.cshtml" />
+    <Content Include="Views\Kontekst\QueryPodaci.cshtml" />
+    <Content Include="Views\Kontekst\RoutePodaci.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -224,9 +225,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>49200</DevelopmentServerPort>
+          <DevelopmentServerPort>52803</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:49200/</IISUrl>
+          <IISUrl>http://localhost:52803/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
