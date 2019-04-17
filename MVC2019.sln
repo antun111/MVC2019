@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adonet_spajanje_na_bazu", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adresar", "Adresar\Adresar.csproj", "{F8F61BD2-B4F7-4DA8-AE55-AC46A9BE590B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adresar.WCFService", "Adresar.WCFService\Adresar.WCFService.csproj", "{CDEDFDDF-DBFE-405A-A7B1-0CF86929D07E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{F8F61BD2-B4F7-4DA8-AE55-AC46A9BE590B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8F61BD2-B4F7-4DA8-AE55-AC46A9BE590B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8F61BD2-B4F7-4DA8-AE55-AC46A9BE590B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDEDFDDF-DBFE-405A-A7B1-0CF86929D07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDEDFDDF-DBFE-405A-A7B1-0CF86929D07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDEDFDDF-DBFE-405A-A7B1-0CF86929D07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDEDFDDF-DBFE-405A-A7B1-0CF86929D07E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
