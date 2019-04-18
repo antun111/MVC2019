@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adresar", "Adresar\Adresar.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adresar.WCFService", "Adresar.WCFService\Adresar.WCFService.csproj", "{CDEDFDDF-DBFE-405A-A7B1-0CF86929D07E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poklon", "Poklon\Poklon.csproj", "{74398772-2118-45AF-93A9-B206EC2074A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{CDEDFDDF-DBFE-405A-A7B1-0CF86929D07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDEDFDDF-DBFE-405A-A7B1-0CF86929D07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDEDFDDF-DBFE-405A-A7B1-0CF86929D07E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74398772-2118-45AF-93A9-B206EC2074A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74398772-2118-45AF-93A9-B206EC2074A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74398772-2118-45AF-93A9-B206EC2074A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74398772-2118-45AF-93A9-B206EC2074A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
